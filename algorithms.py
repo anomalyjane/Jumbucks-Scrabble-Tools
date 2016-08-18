@@ -1,5 +1,6 @@
 #!/usr/bin/python
 
+import model
 
 def dictfile(num):
     return options['source'] + "/" + str(num) + ".txt"
