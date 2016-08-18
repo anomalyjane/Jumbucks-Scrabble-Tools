@@ -22,10 +22,10 @@ options = {'wordgen':True,
            'hooks':True
            }
 
-def process(stro,optn,func):
+def process(stro, optn, func):
     print pretty.h2(stro)
     if optn:
-        func()
+        return func
     else:
         print stro + " skipped."
 
